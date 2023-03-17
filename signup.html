@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Zone Registration</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome6.2.1/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="signup.css">
+<script defer src="signup.js"></script>
+</head>
+<body>
+    <h5 class="d-flex justify-content-center mt-3">Fashion zone</h5>
+    <div class="container signup d-flex align-items-center justify-content-center mt-4 pb-3">       
+        <form id="form">
+<div class="form-group">
+    <h4 class="mt-3">Create account</h4>
+    <div class="input-control">
+    <label for="username">Your name</label>
+    <input type="text"  id="username" class="form-control" placeholder="First and last name">
+    <small>Error message</small>
+</div>
+<div class="input-control">
+    <label for="email" >Email id</label>
+    <input type="email" id="email" class="form-control" placeholder="Email id">
+    <small>Error message</small>
+</div>
+<div class="input-control">
+    <label for="password" >Password</label>
+    <input type="password" id="password" class="form-control" placeholder="At least 8 characters">
+    <small>Error message</small>
+</div>
+<div class="input-control">
+<label for="password2" >Re-enter password</label>
+<input type="password" id="password2" class="form-control" placeholder="Re-enter Password">
+<small>Error message</small>
+</div>
+
+<button class="btn btn-primary mt-3" type="submit">Sign Up</button>
+<div class="terms mt-4">
+<p class="">By creating an account, You agree to Fashion Zone's <br><span class="text-primary">Conditions of use</span> and <span class="text-primary">Privacy Notice.</span></p>
+</div>
+<hr>
+<h5 class="signin">Already have an account?<a class="ml-2" href="login.html">Sign in</a></h5>
+        </form>
+    </div>
+
+
+     <!--JS Script-->
+ <script src="/js/jquery.min.js"></script>
+ <script src="/js/bootstrap.min.js"></script>
+<!--aos script-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+       offset: 300,
+       duration: 1000,
+   });
+   </script>
+</body>
+</html>

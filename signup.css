@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.signup{
+    border-radius: 3px;
+    width: fit-content;
+    box-shadow: 0 0 2px black;
+}
+h5{
+    font-size: 25px;
+    font-family: 'Cinzel',serif;
+}
+.form-group h4{
+    font-weight: 500;
+    font-size: 23px;
+}
+.form-group label{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.form-control{
+    font-size: 13px;
+padding-right: 180px;
+}
+.form-group small{
+    font-size: 13px;
+}
+.form-group small i{
+    font-size: 18px;
+}
+ button{
+    width: 100%;
+    font-size: 14px;
+}
+.terms{
+    font-size: 12px;
+}
+.signin{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signin a{
+    text-decoration: none;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.input-control input:focus{
+    border-color: #777;
+    outline:none;
+    box-shadow: none;
+}
+.input-control.success input{
+    border-color: #09c372;
+}
+.input-control.error input{
+    border-color: red;
+}
+
+.input-control small{
+    color: red;
+    visibility: hidden;
+    font-size: 12px;
+}
+.input-control.error small{
+visibility: visible;
+}
