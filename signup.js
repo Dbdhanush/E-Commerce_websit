@@ -67,6 +67,10 @@ setError(password2, 'Password mismatching !!')
 else{
     setSuccess(password2);
 }
+if(nameValue === setSuccess && emailValue === setSuccess && passwordValue === setSuccess && password2Value === setSuccess)
+{
+    window.location.assign('login.html');
+}
 }
 
 
@@ -81,9 +85,9 @@ function setSuccess(input)
 {
 const formControl=input.parentElement;
 formControl.className='input-control success';
-window.location.assign('login.html');
 
 }
+  
 
 
 
