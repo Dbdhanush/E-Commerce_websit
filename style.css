@@ -95,6 +95,9 @@ font-size: 15px;
     #footer{
         background: rgb(14, 13, 13);
     }
+    .toggler{
+        cursor: pointer;
+    }
     
     
 
