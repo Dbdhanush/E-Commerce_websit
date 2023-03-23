@@ -98,6 +98,9 @@ font-size: 15px;
     .toggler{
         cursor: pointer;
     }
+    .toggler.fa-moon{
+color: white;
+    }
     
     
 

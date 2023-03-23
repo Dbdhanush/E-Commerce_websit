@@ -93,6 +93,10 @@ width: fit-content;
         #footer{
             background: rgb(14, 13, 13);
         }
+        .toggler
+        {
+            cursor: pointer;
+        }
         
         
     
